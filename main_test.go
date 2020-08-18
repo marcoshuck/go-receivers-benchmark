@@ -23,7 +23,7 @@ func BenchmarkPointers(b *testing.B) {
 }
 
 func BenchmarkValues(b *testing.B) {
-	l := logger.NewLogger("Pointers")
+	l := logger.NewLogger("Values")
 	s := values.NewService(l)
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
