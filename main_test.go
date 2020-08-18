@@ -1,3 +1,9 @@
+/* RESULTS:
+BenchmarkPointers
+	BenchmarkPointers-4   	 5207644	       224 ns/op
+BenchmarkValues
+	BenchmarkValues-4     	 4223358	       246 ns/op
+*/
 package go_receivers_benchmark
 
 import (
